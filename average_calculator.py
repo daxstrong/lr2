@@ -8,3 +8,6 @@ count = int(input("Введите количество чисел: "))
 for i in range(count):
     num = float(input(f"Введите число {i+1}: "))
     numbers.append(num)
+
+# Вычисляем сумму чисел
+total = sum(numbers)
