@@ -11,3 +11,6 @@ for i in range(count):
 
 # Вычисляем сумму чисел
 total = sum(numbers)
+
+# Вычисляем среднее арифметическое
+average = total / count
